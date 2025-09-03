@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Contato | Kaluia Bikes</title>
+</head>
+<body>
+
+  <header>
+    <div class="interface">
+      <section class="logo">
+        <a href="index.html">
+          <img src="bike3.png" alt="Logotipo da Kaluia Bikes" />
+        </a>
+      </section>
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="vendas_servicos.html">Vendas e Serviços</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="btn-contato">
+        <button>Contato</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contato">
+      <div class="interface">
+        <h1>Fale Conosco</h1>
+        <p>Estamos aqui para ajudar! Envie sua mensagem e responderemos o mais rápido possível.</p>
+
+        <form class="formulario" action="#" method="POST">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <div class="links-contato">
+          <h2>Outras formas de contato</h2>
+          <ul>
+            <li>
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+                 WhatsApp
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/kaluiabikes" target="_blank" rel="noopener" aria-label="Instagram">
+                 Instagram
+              </a>
+            </li>
+            <li>
+              <a href="tel:+5511999999999" aria-label="Telefone">
+                 Ligue para nós: (39) 99999-9999
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="interface">
+      <p>&copy; 2025 Kaluia Bikes. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
